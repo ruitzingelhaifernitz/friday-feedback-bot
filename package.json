@@ -1,0 +1,14 @@
+
+{
+  "name": "friday-feedback-bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "node-cron": "^3.0.2",
+    "dotenv": "^16.3.1"
+  }
+}
