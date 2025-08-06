@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Who are three people you interacted with this week?</h1>
+        <form id="names-form">
+            <div class="input-group">
+                <label for="person1">Person 1:</label>
+                <input type="text" id="person1" name="person1" required>
+            </div>
+            <div class="input-group">
+                <label for="person2">Person 2:</label>
+                <input type="text" id="person2" name="person2" required>
+            </div>
+            <div class="input-group">
+                <label for="person3">Person 3:</label>
+                <input type="text" id="person3" name="person3" required>
+            </div>
+            <button type="submit">Select the lucky winner!</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2 id="selected-person-text"></h2>
+            <button id="redirect-button">Go to Feedback Page</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
